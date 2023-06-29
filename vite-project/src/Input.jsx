@@ -1,4 +1,4 @@
 function Input ({onChange}) {
-    return <input onChange={onChange} type="text"/>
+    return <input className="input" onChange={onChange} type="text"/>
 }
 export default Input;

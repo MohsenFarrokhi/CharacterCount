@@ -1,6 +1,7 @@
 import {useState} from "react";
 import Caption from "./Caption.jsx";
 import Input from "./Input.jsx";
+import "./App.css"
 
 export const App = () => {
   const [input, setInput] = useState("");
@@ -10,7 +11,7 @@ export const App = () => {
     return (
         <div className="container">
             <Input onChange={inputHandler}/>
-            <Caption input={'Character count'} str={input}/>
+            <Caption input={'Character count :'} str={input}/>
         </div>
     )
 }
